@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.text-input {
+  @apply py-3 px-4 bg-gray-200 rounded-sm w-full text-sm;
+}
+
+.text-input::placeholder {
+  @apply text-gray-900;
+}
